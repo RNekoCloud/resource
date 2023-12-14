@@ -3,8 +3,8 @@ import './globals.css'
 import Navbar from '@/components/Navbar/Navbar'
 
 export const metadata: Metadata = {
-  title: 'Learning Resource',
-  description: 'The source of material learning by CV ZAMAN NOW',
+  title: 'Resource',
+  description: 'Resource is platform for documentation, referance and sample code for developers.',
 }
 
 export default function RootLayout({
