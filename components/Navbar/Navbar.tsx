@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <nav className="w-full border-b p-3">
             <div className="flex w-full ">
-            <h2 className="text-2xl mx-10 font-medium">Resource</h2>
+            <Link className="text-2xl mx-10 font-medium" href="/">Resource</Link>
             <div className="flex ms-auto">
                 <Link href="/docs" className={`mr-4  hover:text-cyan-700 ${pathName === '/docs' ? 'text-cyan-700': ''}`}>Documentation</Link>
                 <Link href="/contributor" className={`mr-4 hover:text-cyan-700 ${pathName === '/contributor' ? 'text-cyan-700': ''}`}>Contributor</Link>
