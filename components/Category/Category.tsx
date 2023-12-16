@@ -1,4 +1,5 @@
 import Card from "../Card/Card"
+import git from "../../public/git.png"
 
 export default function Category() {
 
@@ -12,9 +13,32 @@ export default function Category() {
                 <Card 
                 title="Git" 
                 content={<>Sebuah tool yang berfungsi sebagai <i>version control</i> dan untuk berkolaborasi antar <i>developer</i>.</>}
-                img=""
+                imgCover={git}
                 >
-
+                </Card>
+                <Card 
+                title="Git" 
+                content={<>Sebuah tool yang berfungsi sebagai <i>version control</i> dan untuk berkolaborasi antar <i>developer</i>.</>}
+                imgCover={git}
+                >
+                </Card>
+                <Card 
+                title="Git" 
+                content={<>Sebuah tool yang berfungsi sebagai <i>version control</i> dan untuk berkolaborasi antar <i>developer</i>.</>}
+                imgCover={git}
+                >
+                </Card>
+                <Card 
+                title="Git" 
+                content={<>Sebuah tool yang berfungsi sebagai <i>version control</i> dan untuk berkolaborasi antar <i>developer</i>.</>}
+                imgCover={git}
+                >
+                </Card>
+                <Card 
+                title="Git" 
+                content={<>Sebuah tool yang berfungsi sebagai <i>version control</i> dan untuk berkolaborasi antar <i>developer</i>.</>}
+                imgCover={git}
+                >
                 </Card>
             </div>
         </div>
