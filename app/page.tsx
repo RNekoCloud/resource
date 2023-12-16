@@ -1,4 +1,6 @@
 import Hero from "@/components/Hero/Hero"
+import Category from "@/components/Category/Category"
+
 
 export default function Home() {
   return (
@@ -9,6 +11,7 @@ export default function Home() {
         * Also, it should listing all of available docs.
       */}
       <Hero></Hero>
+      <Category></Category>
     </main>
   )
 }
