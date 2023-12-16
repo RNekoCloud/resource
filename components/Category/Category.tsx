@@ -11,7 +11,7 @@ export default function Category() {
             <div className="flex flex-wrap justify-center mt-6">
                 <Card 
                 title="Git" 
-                content="Most popular version control and collaboration tool"
+                content={<>Sebuah tool yang berfungsi sebagai <i>version control</i> dan untuk berkolaborasi antar <i>developer</i>.</>}
                 img=""
                 >
 

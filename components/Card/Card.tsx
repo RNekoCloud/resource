@@ -1,6 +1,6 @@
 interface CardProps {
     title: string,
-    content: string,
+    content: string | React.ReactNode,
     img: string,
 }
 
