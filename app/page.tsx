@@ -4,7 +4,7 @@ import Category from "@/components/Category/Category"
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-full overflow-hidden">
       {/*
         * Hero component should placed here.
         * It should contains  summary about this page.
